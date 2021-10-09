@@ -1,0 +1,59 @@
+{
+  "steps": [
+    {
+      "name": "",
+      "type": "REST",
+      "quantity": 5
+    },
+    {
+      "image": "https://www.icegif.com/wp-content/uploads/jumping-jacks-icegif-5.gif",
+      "name": "Jumping Jack",
+      "type": "HOLD",
+      "quantity": 30
+    },
+    {
+      "name": "",
+      "type": "REST",
+      "quantity": 60
+    },
+    {
+      "image": "https://thumbs.gfycat.com/GlossySkinnyDuckbillcat-max-1mb.gif",
+      "name": "Pushup",
+      "type": "REP",
+      "quantity": 5
+    },
+    {
+      "name": "",
+      "type": "REST",
+      "quantity": 60
+    },
+    {
+      "image": "https://thumbs.gfycat.com/GlossySkinnyDuckbillcat-max-1mb.gif",
+      "name": "Pushup",
+      "type": "REP",
+      "quantity": 5
+    },
+    {
+      "name": "",
+      "type": "REST",
+      "quantity": 60
+    },
+    {
+      "image": "https://thumbs.gfycat.com/GlossySkinnyDuckbillcat-max-1mb.gif",
+      "name": "Pushup",
+      "type": "REP",
+      "quantity": 5
+    },
+    {
+      "name": "",
+      "type": "REST",
+      "quantity": 60
+    },
+    {
+      "image": "https://thumbs.gfycat.com/GlossySkinnyDuckbillcat-max-1mb.gif",
+      "name": "Pushup",
+      "type": "REP",
+      "quantity": 5
+    }
+  ]
+}
