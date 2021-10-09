@@ -28,7 +28,14 @@
             </div>
 
             <div class="next-content">
-              Jumping Jack: 30 seconds
+              {{nextStepData.name}}: {{nextStepData.quantity}} 
+
+              <template v-if="nextStepData === 'HOLD'">
+                seconds
+              </template>
+              <template v-else>
+                reps
+              </template>
             </div>
           </div>
         </div>
@@ -103,6 +110,10 @@ export default {
       const seconds = this.timer % 60
       return  `${minutes} : ${seconds}`
     },
+    nextStepData() {
+      if (this.currentStep >= this.steps.length) return {}
+      return this.steps[this.currentStep+1]
+    }
   },
   methods: {
     start() {
