@@ -1,4 +1,9 @@
-# workout-notion
+# Workout Motion
+A project I do in the free time that as a tool to help me workout more easily
+
+## Current Features
+- Widget in notion
+- Integrate with Notion as a Widget
 
 ## Project setup
 ```
